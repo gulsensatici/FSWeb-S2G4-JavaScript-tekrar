@@ -14,11 +14,12 @@ var sayilar = [45,856,12.5,63,0.02,154,2,54,78,61.7,654,26,12.5,63,969,152,32,31
 
 //Örneğin çözümü:
 function KareninAlani(kenaruzunlugu){
-	return kenaruzunlugu*kenaruzunlugu;
+	return kenaruzunlugu*kenaruzunlugu; 
 }
 
 /* (Oto test yok) Yukarıdaki KareninAlani fonksiyonunu kenar uzunluğu = 10 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
+console.log(KareninAlani(kenaruzunlugu = 10));
 
 
 /* 	GÖREV 1:  
@@ -29,10 +30,11 @@ function KareninAlani(kenaruzunlugu){
 			4. Hesaplanan çemberin çevresi döndürülecektir.
 		*/
 
-function CemberinCevresi(/* kodlar buraya */){
+function CemberinCevresi(cemberinYaricapi){
 	/* kodlar buraya */
+	return 2*pi*cemberinYaricapi;
 }
-
+console.log(CemberinCevresi(cemberinYaricapi= 5));
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
@@ -47,11 +49,12 @@ function CemberinCevresi(/* kodlar buraya */){
 			4. Hesaplanan çemberin alanı döndürülecektir.
 		*/
 		
-function CemberinAlani(/* kodlar buraya */){
-	/* kodlar buraya */
-}
+/*function CemberinAlani(cemberinYaricapi, pi){
 
+	
+	return pi * cemberinYaricap;
 
+console.log(CemberinAlani(Math.pow(15,2)));*/
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
 
@@ -75,15 +78,23 @@ function CemberinAlani(/* kodlar buraya */){
 
 	var ucetambolunenler, enkucuk, enbuyuk, ucebolunenlerintoplami, besyuzdenkucuksayilar, siralisayilar, tekraredensayilar;
 	
-	//3a çözümü
+	//3a çözümü 
 
 	/* kodlar buraya */
-	
-	
-	
+
+	enbuyuk = sayilar[0]
+	for (let i=0; i<sayilar.length; i++) {
+	if (sayilar[i]>enbuyuk)
+	{ enbuyuk=sayilar[i]
+	}
+}
+console.log(enbuyuk);
+
 	// 3b çözümü:
 
-	/* kodlar buraya */
+	/* kodlar buraya */  
+     
+
 		
 		
 		
